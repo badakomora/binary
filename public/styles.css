@@ -1,0 +1,166 @@
+:root{
+    --main-font: "Roboto",sans-serif;
+    --corner-radius-alpha: 12px;
+    --corner-radius-beta: 8px;
+    --corner-radius-gamma: 4px;
+    --chart-grid-lines-colour: #1c1d20;
+    --chart-grid-lines-colour-rgb: 28, 29, 32;
+    --chart-grid-lines-colour-rgba: rgba(28, 29, 32, 1);
+    --chart-line-2: #7bcbf0;
+    --chart-line-2-rgb: 123, 203, 240;
+    --chart-line-2-rgba: rgba(123, 203, 240, 1);
+    --chart-line-1: #02a6f2;
+    --chart-line-1-rgb: 2, 166, 242;
+    --chart-line-1-rgba: rgba(2, 166, 242, 1);
+    --indicator-9: #776bf8;
+    --indicator-9-rgb: 119, 107, 248;
+    --indicator-9-rgba: rgba(119, 107, 248, 1);
+    --indicator-8: #de4444;
+    --indicator-8-rgb: 222, 68, 68;
+    --indicator-8-rgba: rgba(222, 68, 68, 1);
+    --indicator-7: #ef7d57;
+    --indicator-7-rgb: 239, 125, 87;
+    --indicator-7-rgba: rgba(239, 125, 87, 1);
+    --indicator-6: #00adb2;
+    --indicator-6-rgb: 0, 173, 178;
+    --indicator-6-rgba: rgba(0, 173, 178, 1);
+    --indicator-5: #f425f4;
+    --indicator-5-rgb: 244, 37, 244;
+    --indicator-5-rgba: rgba(244, 37, 244, 1);
+    --indicator-4: #06f;
+    --indicator-4-rgb: 0, 102, 255;
+    --indicator-4-rgba: rgba(0, 102, 255, 1);
+    --indicator-3: #e98b07;
+    --indicator-3-rgb: 233, 139, 7;
+    --indicator-3-rgba: rgba(233, 139, 7, 1);
+    --indicator-2: #aa9009;
+    --indicator-2-rgb: 170, 144, 9;
+    --indicator-2-rgba: rgba(170, 144, 9, 1);
+    --indicator-1: #0a9957;
+    --indicator-1-rgb: 10, 153, 87;
+    --indicator-1-rgba: rgba(10, 153, 87, 1);
+    --contrast-border: #1a1d21;
+    --contrast-border-rgb: 26, 29, 33;
+    --contrast-border-rgba: rgba(26, 29, 33, 0);
+    --contrast-gamma: #70808c;
+    --contrast-gamma-rgb: 112, 128, 140;
+    --contrast-gamma-rgba: rgba(112, 128, 140, 1);
+    --contrast-beta: #9cb0c2;
+    --contrast-beta-rgb: 156, 176, 194;
+    --contrast-beta-rgba: rgba(156, 176, 194, 1);
+    --contrast-alpha: #fff;
+    --contrast-alpha-rgb: 255, 255, 255;
+    --high-gamma: #212529;
+    --high-gamma-rgb: 33, 37, 41;
+    --high-gamma-rgba: rgba(33, 37, 41, 1);
+    --high-beta: #2d3138;
+    --high-beta-rgb: 45, 49, 56;
+    --high-beta-rgba: rgba(45, 49, 56, 1);
+    --high-alpha: #272930;
+    --high-alpha-rgb: 39, 41, 48;
+    --high-alpha-rgba: rgba(39, 41, 48, 1);
+    --base-gamma: #14161a;
+    --base-gamma-rgb: 20, 22, 26;
+    --base-gamma-rgba: rgba(20, 22, 26, 1);
+    --base-beta: #24262d;
+    --base-beta-rgb: 36, 38, 45;
+    --base-beta-rgba: rgba(36, 38, 45, 1);
+    --base-alpha: #1a1d21;
+    --base-alpha-rgb: 26, 29, 33;
+    --base-alpha-rgba: rgba(26, 29, 33, 1);
+    --bg-gamma: #08090a;
+    --bg-gamma-rgb: 8, 9, 10;
+    --bg-gamma-rgba: rgba(8, 9, 10, 1);
+    --bg-beta: #14161a;
+    --bg-beta-rgb: 20, 22, 26;
+    --bg-beta-rgba: rgba(20, 22, 26, 1);
+    --bg-alpha: #0e0f12;
+    --bg-alpha-rgb: 14, 15, 18;
+    --bg-alpha-rgba: rgba(14, 15, 18, 1);
+    --negative-on-negative: #fff;
+    --negative-on-negative-rgb: 255, 255, 255;
+    --negative-on-negative-rgba: rgba(255, 255, 255, 1);
+    --negative-gamma: #e1310f;
+    --negative-gamma-rgb: 225, 49, 15;
+    --negative-gamma-rgba: rgba(225, 49, 15, 1);
+    --negative-beta: #f47961;
+    --negative-beta-rgb: 244, 121, 97;
+    --negative-beta-rgba: rgba(244, 121, 97, 1);
+    --negative-alpha: #f15131;
+    --negative-alpha-rgb: 241, 81, 49;
+    --negative-alpha-rgba: rgba(241, 81, 49, 1);
+    --warning-on-warning: #000;
+    --warning-on-warning-rgb: 0, 0, 0;
+    --warning-on-warning-rgba: rgba(0, 0, 0, 1);
+    --warning-gamma: #ee9f07;
+    --warning-gamma-rgb: 238, 159, 7;
+    --warning-gamma-rgba: rgba(238, 159, 7, 1);
+    --warning-alpha: #f9b42e;
+    --warning-alpha-rgb: 249, 180, 46;
+    --warning-alpha-rgba: rgba(249, 180, 46, 1);
+    --warning-beta: #fac661;
+    --warning-beta-rgb: 250, 198, 97;
+    --warning-beta-rgba: rgba(250, 198, 97, 1);
+    --positive-on-positive: #fff;
+    --positive-on-positive-rgb: 255, 255, 255;
+    --positive-on-positive-rgba: rgba(255, 255, 255, 1);
+    --positive-gamma: #18955b;
+    --positive-gamma-rgb: 24, 149, 91;
+    --positive-gamma-rgba: rgba(24, 149, 91, 1);
+    --positive-beta: #35df90;
+    --positive-beta-rgb: 53, 223, 144;
+    --positive-beta-rgba: rgba(53, 223, 144, 1);
+    --positive-alpha: #1fbf75;
+    --positive-alpha-rgb: 31, 191, 117;
+    --positive-alpha-rgba: rgba(31, 191, 117, 1);
+    --accent-on-accent: #fff;
+    --accent-on-accent-rgb: 255, 255, 255;
+    --accent-on-accent-rgba: rgba(255, 255, 255, 1);
+    --accent-gamma: #0076cc;
+    --accent-gamma-rgb: 0, 118, 204;
+    --accent-gamma-rgba: rgba(0, 118, 204, 1);
+    --accent-beta: #33a9ff;
+    --accent-beta-rgb: 51, 169, 255;
+    --accent-beta-rgba: rgba(51, 169, 255, 1);
+    --accent-alpha: #0094ff;
+    --accent-alpha-rgb: 0, 148, 255;
+    --accent-alpha-rgba: rgba(0, 148, 255, 1);
+    --tournament-widget-background-color: var(--bg-alpha);
+    --fantasy-widget-background-color: var(--base-alpha);
+    --sidebar-width: 5rem;
+    --space-4: 0.25rem;
+    --space-8: 0.5rem;
+    --space-16: 1rem;
+    --space-24: 1.5rem;
+    --space-32: 2rem;
+    --layout-spacer: var(--space-16);
+
+    @media (max-width: 1280px){
+/* :root { */
+    --sidebar-width: 4rem;
+    }
+}
+
+
+
+body{
+    background: var(--bg-alpha);
+    color: var(--contrast-alpha);
+    min-height: 100%;
+    font-size: 100%;
+    font-weight: 400;
+    height: 100%;
+    min-width: 20rem;
+    overflow-x: hidden;
+    font-family: var(--main-font);
+
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
